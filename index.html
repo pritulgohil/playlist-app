@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Playlist App" />
+    <meta name="theme-color" content="#048BA8" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json" />
+    <title>Music App</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="Assets/logo.png" alt="music-app">
+            </div>
+            <div class="title">
+                <h1>MusicApp.com</h1>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-container">
+            <div class="side1">
+                <div class="side1-container">
+                    <div class="side1-heading">
+                        <div class="side1-heading-container">
+                            <h2>New Song</h2>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div class="title-container">
+                            <label for="title">
+                                Title:
+                            </label>
+                            <input id="title" type="text" name="title">
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div class="title-container">
+                            <label for="title">
+                                Artist:
+                            </label>
+                            <input id="artist" type="text" name="title">
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div class="title-container">
+                            <p id="error" class="error">Input Title and Artist Name!</p>
+                            <button id="add-button" class="add-button">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side2">
+                <div class="side2-container">
+                    <div class="side1-heading">
+                        <div class="side1-heading-container">
+                            <h2>List of Songs</h2>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <div id="title-container" class="title-container">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

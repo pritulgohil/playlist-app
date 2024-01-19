@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.header{
+    background-color: #048BA8;
+}
+
+.header-container{
+    padding: 2% 5% 2% 5%;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.main-container{
+    width: 80%;
+    background-color: #F4F2F3;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.side1{
+    width: 100%;
+}
+
+.side2{
+    width: 100%;
+}
+
+.side1-container{
+    padding: 50px;
+}
+
+.side2-container{
+    padding: 50px;
+}
+
+.side1-heading{
+    background-color: #F4F2F3;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.side1-heading-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.input-container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.title-container label{
+    font-size: 20px;
+}
+
+.title-container input{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-button{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    background-color: #048BA8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bold{
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.error{
+    color: red;
+    font-weight: 900;
+    font-size: 15px;
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-container {
+      flex-direction: column;
+      width: 90%;
+    }
+  }
