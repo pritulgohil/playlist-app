@@ -10,9 +10,9 @@ self.addEventListener('install',(event) => {
        cache.addAll([
         '/',
         '/index.html',
-        '/styles.css',
-        '/script.js',
-        '/Assets/logo.png'
+        'https://pritul-playlist-app.netlify.app/styles.css',
+        'https://pritul-playlist-app.netlify.app/script.js',
+        'https://pritul-playlist-app.netlify.app/Assets/icon.png'
        ]);
     })
     .catch((error) => {
